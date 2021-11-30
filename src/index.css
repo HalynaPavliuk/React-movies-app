@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  padding: 0 1rem;
+}
+
+.content {
+  min-height: calc(100vh - 50px - 65px);
+  padding: 20px;
+  width: 100%;
+}
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 15rem;
+  height: 30rem;
+}
+
+.card > .card-image {
+  height: 75%;
+}
+
+.card > .card-image > img {
+  height: 100%;
+}
+
+form > .row {
+  display: flex;
+  align-items: center;
+}
+
+.filter > label {
+  margin-right: 3rem;
+}
